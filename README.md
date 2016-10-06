@@ -23,12 +23,13 @@ How to test new function?
 
 INPUT and OUTPUT
 -------------------------
-INPUT 
+INPUT   
   maximaintclean= a matrix output of the maxima coordinates in [x1,y1;xy,y2;,x3,y3;...] format  
   fragall=all of the maxima that were closer together than 'dist'  
   fragconc=the maxima after they are combined into a single averaged point  
   coloroverlay: 2D slices showing the gaussian smoothed images with centerpoints highlighted in purple  
-OUTPUT
+  
+OUTPUT  
   smoothdapi=stack of greyscale images  (x by y by z array)  
   p.noisemax=maxima below this threshhold will be flattenned (imhmax()) (usually 10)  
   p.noisemin=minima less than this value are eliminated using (imhmin()) (usually 10)  
