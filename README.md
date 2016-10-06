@@ -17,7 +17,8 @@ How to run?
 How to test new function?
 -------------------------
 1. A new segmentation function code should contains the same input and output as original 'maxima3D' code.
-2. Replace the ''maxima3D'' in line 11 of RUN_max() as your new function.
+2. put your new segmentation code in folder /[Segmentation function here]
+3. Replace the ''maxima3D'' in line 11 of RUN_max() as your new function.
 
 
 INPUT and OUTPUT
