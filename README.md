@@ -20,6 +20,9 @@ What included
 -------------------------
 
 * RUN_max.m
-* R
-* Normalization
-* Binary
+* Previous_result.mat
+* README.md 
+* /[Segmentation function here] folder contains maxima3D.m
+* /[[functions]] folder contains Raw_image.fig, Raw_image.m, io.mat, and i.png
+* /[control 1- DAPI and pSmad with cover] folder contains p.mat, stack.mat
+
