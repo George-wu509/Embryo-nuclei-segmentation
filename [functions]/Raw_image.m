@@ -70,7 +70,8 @@ set(handles.popupmenu1,'String',popname);
 
 
 %% Default load first image information
-d_fol = data_folder{1};
+d_fol = [rootfolder '/' basename{1}];  % edit by George 1006
+%d_fol = data_folder{1};
 s_fol = [d_fol '/stack.mat'];
 d_fol = [d_fol '/p.mat'];
 if ispc ==1
@@ -152,7 +153,8 @@ image_no= get(handles.popupmenu1,'Value');
 
 
 %% Default load first image information
-d_fol = data_folder{image_no};
+d_fol = [rootfolder '/' basename{1}];  % edit by George 1006
+%d_fol = data_folder{1};
 s_fol = [d_fol '/stack.mat'];
 d_fol = [d_fol '/p.mat'];
 if ispc ==1
